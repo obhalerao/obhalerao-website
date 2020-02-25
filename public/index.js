@@ -37,7 +37,8 @@ app.get('/', function(req, res){
 
 app.get('/labs', function(req, res){
     
-    var dirs = [{"dir" : "fun_page", "name" : "Fun Page"}, {"dir" : "weather", "name" : "Weather Forecaster"}];
+    var dirs = [{"dir" : "fun_page", "name" : "Fun Page"}, {"dir" : "weather", "name" : "Weather Forecaster"},
+    {"dir" : "schedule", "name" : "Schedule Generator"}];
     
     res.render("my_labs", {"labs" : dirs});
 });
