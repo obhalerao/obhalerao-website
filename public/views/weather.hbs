@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang='en'>
+    
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/nav_bar.css"/>
+        <title>Weather Forecaster</title>
+
+    <!--put scripts in header with tag async-->
+        <script type="text/javascript" src="js/clientScript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="top-nav">
+            <ul class="top-horizontal">
+                <li class="top-menu righty"><a href="labs">All Labs</a></li>
+                <li class="top-menu righty"><a href="https://user.tjhsst.edu/2020obhalera">Home</a></li>
+                <li class="top-menu lefty" id="welcome">Welcome!</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Weather Forecaster</h1>
+            <p>Enter your latitude and longitude here to get an hourly weather forecast!</p>
+            <form action="https://user.tjhsst.edu/2020obhalera/getWeather">
+                <label for="lat">Latitude: </label>
+                <input type="text" id="lat" name="lat"><br><br>
+                <label for="long">Longitude: </label>
+                <input type="text" id="long" name="long"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+    </body>
+    
+</html>
+

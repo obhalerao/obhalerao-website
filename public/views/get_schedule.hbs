@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang='en'>
+    
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/nav_bar.css"/>
+        <title>{{firstname}} {{lastname}}'s schedule</title>
+
+    <!--put scripts in header with tag async-->
+        <script type="text/javascript" src="js/clientScript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="top-nav">
+            <ul class="top-horizontal">
+                <li class="top-menu righty"><a href="labs">All Labs</a></li>
+                <li class="top-menu righty"><a href="https://user.tjhsst.edu/2020obhalera">Home</a></li>
+                <li class="top-menu lefty" id="welcome">Welcome!</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>{{firstname}} {{lastname}}'s {{grade}}th grade schedule</h1>
+            <table style="width:50%">
+                <tr>
+                    <th>Period</th>
+                    <th>Class</th>
+                </tr>
+                {{#each periods}}
+                <tr>
+                    <td class="period">{{this.index}}</td>
+                    <td class="period">{{this.period}}</td>
+                </tr>
+                {{/each}}
+
+            </table>
+            
+            <p>{{message}}</p>
+        </div>
+
+
+    </body>
+    
+</html>
+

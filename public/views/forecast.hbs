@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang='en'>
+    
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/nav_bar.css"/>
+        <title>Forecast for {{city}}, {{state}}</title>
+
+    <!--put scripts in header with tag async-->
+        <script type="text/javascript" src="js/clientScript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="top-nav">
+            <ul class="top-horizontal">
+                <li class="top-menu lefty"><a href="https://user.tjhsst.edu/2020obhalera/weather">Back</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Hourly forecast for {{city}}, {{state}}</h1>
+            <ul>
+                {{#each hours}}
+                    <li>{{this.day}}, {{this.time}}: Temperature {{this.temperature}} degrees {{this.unit}}. Wind {{this.speed}} {{this.direction}}. {{this.shortForecast}}.</li>
+                {{/each}}
+            </ul>
+        </div>
+
+
+    </body>
+    
+</html>
+

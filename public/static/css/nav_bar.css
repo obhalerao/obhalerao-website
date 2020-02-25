@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    bottom: auto;
+    margin: 0px;
+}
+
+/*----------------------------------------------*/
+/*TOP NAV*/
+div.top-nav {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: auto;
+    height: 50px;
+    width: auto;
+    font-family: 'Open Sans', 'sans-serif';
+    
+}
+
+div.woah{
+    text-align: center;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 300px;
+}
+
+div.intro{
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 18px;
+}
+
+ul.top-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+/*float li's left*/
+.lefty {
+    float: left;
+}
+
+/*float li's right*/
+.righty {
+    float: right;
+}
+
+.center{
+    float: center;
+}
+
+#welcome {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-menu a:hover {
+    background-color: #111;
+}
+
+
+
+/*----------------------------------------------*/
+/*CONTENT DIV*/
+/*margin is the space between this element and other elements*/
+/*padding is the space the content within this element and the outside edge of the element*/
+
+div.content {
+    margin-left: 13%;
+    margin-right: 13%;
+    width: 750px;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.col-2 {
+    margin: 8px;
+    width: 355px;
+    float: left;
+    border: 2px solid #AAA;
+}
+
+.col-1 {
+    width: 600px;
+    float: left;
+}
+
+.interactable {
+    height: 50px;
+    text-align: center;
+}
+
+.period{
+    text-align: center;
+}

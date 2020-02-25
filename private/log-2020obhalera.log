@@ -1,0 +1,929 @@
+Express server started on port: 12470
+/web/user/2020obhalera/public/index.js:111
+                forecast.append(temp);
+                         ^
+
+TypeError: forecast.append is not a function
+    at IncomingMessage.<anonymous> (/web/user/2020obhalera/public/index.js:111:26)
+    at IncomingMessage.emit (events.js:187:15)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+/web/user/2020obhalera/public/index.js:70
+                res.locals.city = obj.properties.relativeLocation.properties.city;
+                                                 ^
+
+TypeError: Cannot read property 'relativeLocation' of undefined
+    at IncomingMessage.<anonymous> (/web/user/2020obhalera/public/index.js:70:50)
+    at IncomingMessage.emit (events.js:182:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:486:10)
+    at flow (_stream_readable.js:922:34)
+    at resume_ (_stream_readable.js:904:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Express server started on port: 12470
+/web/user/2020obhalera/public/index.js:70
+                res.locals.city = obj.properties.relativeLocation.properties.city;
+                                                 ^
+
+TypeError: Cannot read property 'relativeLocation' of undefined
+    at IncomingMessage.<anonymous> (/web/user/2020obhalera/public/index.js:70:50)
+    at IncomingMessage.emit (events.js:182:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:486:10)
+    at flow (_stream_readable.js:922:34)
+    at resume_ (_stream_readable.js:904:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Express server started on port: 12470
+Express server started on port: 12470
+undefined
+/web/user/2020obhalera/public/index.js:71
+                res.locals.city = obj.properties.relativeLocation.properties.city;
+                                                 ^
+
+TypeError: Cannot read property 'relativeLocation' of undefined
+    at IncomingMessage.<anonymous> (/web/user/2020obhalera/public/index.js:71:50)
+    at IncomingMessage.emit (events.js:182:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:486:10)
+    at flow (_stream_readable.js:922:34)
+    at resume_ (_stream_readable.js:904:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Express server started on port: 12470
+Express server started on port: 12470
+{ correlationId: '720012c4-38c0-4440-b6a7-27e841a7f189',
+  title: 'Adjusting Precision Of Point Coordinate',
+  type: 'https://api.weather.gov/problems/AdjustPointPrecision',
+  status: 301,
+  detail:
+   'The precision of latitude/longitude points is limited to 4 decimal digits for efficiency. The location attribute contains your request mapped to the nearest supported point. If your client supports it, you will be redirected.',
+  instance:
+   'https://api.weather.gov/requests/720012c4-38c0-4440-b6a7-27e841a7f189' }
+/web/user/2020obhalera/public/index.js:71
+                res.locals.city = obj.properties.relativeLocation.properties.city;
+                                                 ^
+
+TypeError: Cannot read property 'relativeLocation' of undefined
+    at IncomingMessage.<anonymous> (/web/user/2020obhalera/public/index.js:71:50)
+    at IncomingMessage.emit (events.js:182:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:486:10)
+    at flow (_stream_readable.js:922:34)
+    at resume_ (_stream_readable.js:904:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Express server started on port: 12470
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/38.8185,-77.1709',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -77.1709, 38.8185 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/38.8185,-77.1709',
+     '@type': 'wx:Point',
+     cwa: 'LWX',
+     forecastOffice: 'https://api.weather.gov/offices/LWX',
+     gridX: 91,
+     gridY: 66,
+     forecast: 'https://api.weather.gov/gridpoints/LWX/91,66/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/LWX/91,66/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/LWX/91,66',
+     observationStations: 'https://api.weather.gov/gridpoints/LWX/91,66/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/VAZ053',
+     county: 'https://api.weather.gov/zones/county/VAC059',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/VAZ053',
+     timeZone: 'America/New_York',
+     radarStation: 'KLWX' } }
+Express server started on port: 12470
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/35,-71',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -71, 35 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/35,-71',
+     '@type': 'wx:Point',
+     cwa: 'ONA',
+     forecastOffice: 'https://api.weather.gov/offices/ONA',
+     gridX: null,
+     gridY: null,
+     forecast: null,
+     forecastHourly: null,
+     forecastGridData: null,
+     observationStations: null,
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/ANZ925',
+     timeZone: 'America/New_York',
+     radarStation: null } }
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/38.2674,-104.6609',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -104.6609, 38.2674 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/38.2674,-104.6609',
+     '@type': 'wx:Point',
+     cwa: 'PUB',
+     forecastOffice: 'https://api.weather.gov/offices/PUB',
+     gridX: 93,
+     gridY: 64,
+     forecast: 'https://api.weather.gov/gridpoints/PUB/93,64/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/PUB/93,64/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/PUB/93,64',
+     observationStations: 'https://api.weather.gov/gridpoints/PUB/93,64/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/COZ086',
+     county: 'https://api.weather.gov/zones/county/COC101',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/COZ228',
+     timeZone: 'America/Denver',
+     radarStation: 'KPUX' } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/35,-71',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -71, 35 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/35,-71',
+     '@type': 'wx:Point',
+     cwa: 'ONA',
+     forecastOffice: 'https://api.weather.gov/offices/ONA',
+     gridX: null,
+     gridY: null,
+     forecast: null,
+     forecastHourly: null,
+     forecastGridData: null,
+     observationStations: null,
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/ANZ925',
+     timeZone: 'America/New_York',
+     radarStation: null } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/21.252,-158.0409',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -158.0409, 21.252 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/21.252,-158.0409',
+     '@type': 'wx:Point',
+     cwa: 'HFO',
+     forecastOffice: 'https://api.weather.gov/offices/HFO',
+     gridX: 146,
+     gridY: 141,
+     forecast: 'https://api.weather.gov/gridpoints/HFO/146,141/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/HFO/146,141/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/HFO/146,141',
+     observationStations: 'https://api.weather.gov/gridpoints/HFO/146,141/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/PHZ115',
+     timeZone: 'Pacific/Honolulu',
+     radarStation: 'PHMO' } }
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/21.252,-158.0409',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -158.0409, 21.252 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/21.252,-158.0409',
+     '@type': 'wx:Point',
+     cwa: 'HFO',
+     forecastOffice: 'https://api.weather.gov/offices/HFO',
+     gridX: 146,
+     gridY: 141,
+     forecast: 'https://api.weather.gov/gridpoints/HFO/146,141/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/HFO/146,141/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/HFO/146,141',
+     observationStations: 'https://api.weather.gov/gridpoints/HFO/146,141/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/PHZ115',
+     timeZone: 'Pacific/Honolulu',
+     radarStation: 'PHMO' } }
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/21.252,-158.0409',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -158.0409, 21.252 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/21.252,-158.0409',
+     '@type': 'wx:Point',
+     cwa: 'HFO',
+     forecastOffice: 'https://api.weather.gov/offices/HFO',
+     gridX: 146,
+     gridY: 141,
+     forecast: 'https://api.weather.gov/gridpoints/HFO/146,141/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/HFO/146,141/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/HFO/146,141',
+     observationStations: 'https://api.weather.gov/gridpoints/HFO/146,141/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/PHZ115',
+     timeZone: 'Pacific/Honolulu',
+     radarStation: 'PHMO' } }
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/35,-71',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -71, 35 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/35,-71',
+     '@type': 'wx:Point',
+     cwa: 'ONA',
+     forecastOffice: 'https://api.weather.gov/offices/ONA',
+     gridX: null,
+     gridY: null,
+     forecast: null,
+     forecastHourly: null,
+     forecastGridData: null,
+     observationStations: null,
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/ANZ925',
+     timeZone: 'America/New_York',
+     radarStation: null } }
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/38,-70',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -70, 38 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/38,-70',
+     '@type': 'wx:Point',
+     cwa: 'ONA',
+     forecastOffice: 'https://api.weather.gov/offices/ONA',
+     gridX: null,
+     gridY: null,
+     forecast: null,
+     forecastHourly: null,
+     forecastGridData: null,
+     observationStations: null,
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/ANZ920',
+     timeZone: 'America/New_York',
+     radarStation: null } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/38,-70',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -70, 38 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/38,-70',
+     '@type': 'wx:Point',
+     cwa: 'ONA',
+     forecastOffice: 'https://api.weather.gov/offices/ONA',
+     gridX: null,
+     gridY: null,
+     forecast: null,
+     forecastHourly: null,
+     forecastGridData: null,
+     observationStations: null,
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/ANZ920',
+     timeZone: 'America/New_York',
+     radarStation: null } }
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/38,-70',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -70, 38 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/38,-70',
+     '@type': 'wx:Point',
+     cwa: 'ONA',
+     forecastOffice: 'https://api.weather.gov/offices/ONA',
+     gridX: null,
+     gridY: null,
+     forecast: null,
+     forecastHourly: null,
+     forecastGridData: null,
+     observationStations: null,
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/ANZ920',
+     timeZone: 'America/New_York',
+     radarStation: null } }
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/36.5867,-79.2876',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -79.2876, 36.5867 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/36.5867,-79.2876',
+     '@type': 'wx:Point',
+     cwa: 'RNK',
+     forecastOffice: 'https://api.weather.gov/offices/RNK',
+     gridX: 100,
+     gridY: 40,
+     forecast: 'https://api.weather.gov/gridpoints/RNK/100,40/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/RNK/100,40/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/RNK/100,40',
+     observationStations: 'https://api.weather.gov/gridpoints/RNK/100,40/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/VAZ044',
+     county: 'https://api.weather.gov/zones/county/VAC143',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/VAZ044',
+     timeZone: 'America/New_York',
+     radarStation: 'KFCX' } }
+Express server started on port: 12470
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/71.2815,-156.7986',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -156.7986, 71.2815 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/71.2815,-156.7986',
+     '@type': 'wx:Point',
+     cwa: 'AFG',
+     forecastOffice: 'https://api.weather.gov/offices/AFG',
+     gridX: 381,
+     gridY: 359,
+     forecast: 'https://api.weather.gov/gridpoints/AFG/381,359/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/AFG/381,359/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/AFG/381,359',
+     observationStations: 'https://api.weather.gov/gridpoints/AFG/381,359/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/AKZ202',
+     county: 'https://api.weather.gov/zones/county/AKC185',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/AKZ202',
+     timeZone: 'America/Anchorage',
+     radarStation: null } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/64.8328,-147.7229',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -147.7229, 64.8328 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/64.8328,-147.7229',
+     '@type': 'wx:Point',
+     cwa: 'AFG',
+     forecastOffice: 'https://api.weather.gov/offices/AFG',
+     gridX: 494,
+     gridY: 122,
+     forecast: 'https://api.weather.gov/gridpoints/AFG/494,122/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/AFG/494,122/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/AFG/494,122',
+     observationStations: 'https://api.weather.gov/gridpoints/AFG/494,122/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/AKZ222',
+     county: 'https://api.weather.gov/zones/county/AKC090',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/AKZ222',
+     timeZone: 'America/Anchorage',
+     radarStation: 'PAPD' } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/40.689,-74.0449',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -74.0449, 40.689 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/40.689,-74.0449',
+     '@type': 'wx:Point',
+     cwa: 'OKX',
+     forecastOffice: 'https://api.weather.gov/offices/OKX',
+     gridX: 31,
+     gridY: 33,
+     forecast: 'https://api.weather.gov/gridpoints/OKX/31,33/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/OKX/31,33/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/OKX/31,33',
+     observationStations: 'https://api.weather.gov/gridpoints/OKX/31,33/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/NYZ072',
+     county: 'https://api.weather.gov/zones/county/NYC061',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/NYZ072',
+     timeZone: 'America/New_York',
+     radarStation: 'KDIX' } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/32.5439999,-117.037',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -117.037, 32.5439999 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/32.5439999,-117.037',
+     '@type': 'wx:Point',
+     cwa: 'SGX',
+     forecastOffice: 'https://api.weather.gov/offices/SGX',
+     gridX: 59,
+     gridY: 5,
+     forecast: 'https://api.weather.gov/gridpoints/SGX/59,5/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/SGX/59,5/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/SGX/59,5',
+     observationStations: 'https://api.weather.gov/gridpoints/SGX/59,5/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/CAZ043',
+     county: 'https://api.weather.gov/zones/county/CAC073',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/CAZ243',
+     timeZone: 'America/Los_Angeles',
+     radarStation: 'KNKX' } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/33.6694,-112.525',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -112.525, 33.6694 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/33.6694,-112.525',
+     '@type': 'wx:Point',
+     cwa: 'PSR',
+     forecastOffice: 'https://api.weather.gov/offices/PSR',
+     gridX: 143,
+     gridY: 69,
+     forecast: 'https://api.weather.gov/gridpoints/PSR/143,69/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/PSR/143,69/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/PSR/143,69',
+     observationStations: 'https://api.weather.gov/gridpoints/PSR/143,69/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/AZZ537',
+     county: 'https://api.weather.gov/zones/county/AZC013',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/AZZ132',
+     timeZone: 'America/Phoenix',
+     radarStation: 'KIWA' } }
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/64,-147',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -147, 64 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/64,-147',
+     '@type': 'wx:Point',
+     cwa: 'AFG',
+     forecastOffice: 'https://api.weather.gov/offices/AFG',
+     gridX: 507,
+     gridY: 92,
+     forecast: 'https://api.weather.gov/gridpoints/AFG/507,92/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/AFG/507,92/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/AFG/507,92',
+     observationStations: 'https://api.weather.gov/gridpoints/AFG/507,92/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/AKZ226',
+     county: 'https://api.weather.gov/zones/county/AKC068',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/AKZ226',
+     timeZone: 'America/Anchorage',
+     radarStation: 'PAPD' } }
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+{ '@context':
+   [ 'https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld',
+     { wx: 'https://api.weather.gov/ontology#',
+       s: 'https://schema.org/',
+       geo: 'http://www.opengis.net/ont/geosparql#',
+       unit: 'http://codes.wmo.int/common/unit/',
+       '@vocab': 'https://api.weather.gov/ontology#',
+       geometry: [Object],
+       city: 's:addressLocality',
+       state: 's:addressRegion',
+       distance: [Object],
+       bearing: [Object],
+       value: [Object],
+       unitCode: [Object],
+       forecastOffice: [Object],
+       forecastGridData: [Object],
+       publicZone: [Object],
+       county: [Object] } ],
+  id: 'https://api.weather.gov/points/42.9356,-78.8692',
+  type: 'Feature',
+  geometry: { type: 'Point', coordinates: [ -78.8692, 42.9356 ] },
+  properties:
+   { '@id': 'https://api.weather.gov/points/42.9356,-78.8692',
+     '@type': 'wx:Point',
+     cwa: 'BUF',
+     forecastOffice: 'https://api.weather.gov/offices/BUF',
+     gridX: 35,
+     gridY: 48,
+     forecast: 'https://api.weather.gov/gridpoints/BUF/35,48/forecast',
+     forecastHourly:
+      'https://api.weather.gov/gridpoints/BUF/35,48/forecast/hourly',
+     forecastGridData: 'https://api.weather.gov/gridpoints/BUF/35,48',
+     observationStations: 'https://api.weather.gov/gridpoints/BUF/35,48/stations',
+     relativeLocation:
+      { type: 'Feature', geometry: [Object], properties: [Object] },
+     forecastZone: 'https://api.weather.gov/zones/forecast/NYZ010',
+     county: 'https://api.weather.gov/zones/county/NYC029',
+     fireWeatherZone: 'https://api.weather.gov/zones/fire/NYZ010',
+     timeZone: 'America/New_York',
+     radarStation: 'KBUF' } }
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+/web/user/2020obhalera/public/index.js:156
+    if()
+       ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+/web/user/2020obhalera/public/index.js:156
+    if()
+       ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+/web/user/2020obhalera/public/index.js:156
+    if()
+       ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+/web/user/2020obhalera/public/index.js:156
+    if()
+       ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
+Express server started on port: 12470
